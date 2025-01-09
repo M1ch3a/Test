@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rubrica</title>
+</head>
+<body>
+    <div id="modifica_pupop">
+        <div id="pupop">
+            <h1>Modifica contatto</h1>
+            <div class="pupop">
+                <p class="p">Modifica nome</p>
+                <input class="input" type="text" name="name" id="name">
+            </div>
+            <div class="pupop">
+                <p class="p">Modifica numero</p>
+                <input class="input" type="text" name="number" id="number">
+            </div>
+            <button class="bottone" onclick=modifica()>Modifica contatto</button>
+        </div>
+    </div>
+     
+    <div id="container">
+        <div class="card">
+            <h1>Gestione contatti</h1>
+            <div id="input">
+                <div id="aggiungi">
+                    <div id="Aggiungi">
+                        <p class="p">Nome del contatto</p>
+                        <p class="p">Numero del contatto</p>
+                    </div>
+                    <div id="Aggiungi">
+                        <input class="input" type="text" name="nome" id="nome">
+                        <input class="input" type="text" name="numero" id="numero">
+                    </div>
+                    <button class="bottone" onclick=add()>Aggiungi contatto</button>
+                </div>
+                <div class="due">
+                    <p class="p">Inserisci il numero dell'Id per eliminare il contatto</p>
+                    <input class="input" type="text" name="index1" id="index1">
+                    <button class="bottone" onclick=elimina()>Elimina contatto</button>
+                </div>
+                <div class="due">
+                    <p class="p">Inserisci il numero dell'Id per modificare il contatto</p>
+                    <input class="input" type="text" name="index2" id="index2">
+                    <button class="bottone" onclick=compari()>Modifica contatto</button>
+                </div>
+                <div class="due">
+                    <p class="p">Inserisci il nome del contatto per trovarlo</p>
+                    <input class="input" type="text" name="nome2" id="nome2">
+                    <button class="bottone" onclick=cerca()>Ricerca contatto</button>
+                </div>
+                <div id="visualizzazione">
+                    <button class="bottone" onclick=visualizza()>Visualizza rubrica</button>
+                    <button class="bottone" onclick=resetta()>Nascondi Rubrica</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rubrica telefonica</h1>
+            <div id="print">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/java.js"></script>
+
+</body>
+</html>

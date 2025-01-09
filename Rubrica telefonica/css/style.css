@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+#container{
+    width: 100%;
+    height: 100dvh;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background: white;
+}
+
+.card{
+    width: 40%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(218, 218, 218);
+    border-radius: 20px;
+}
+
+#input{
+    width: 90%;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#aggiungi{
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Aggiungi{
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+}
+
+.due{
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 20px;
+}
+
+#visualizzazione{
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottone{
+    background-color: rgb(208, 208, 192);
+    border: 2px solid rgb(83, 81, 78);
+    color:rgb(42, 37, 37);
+    font-size: 15px;
+    border-radius: 10px;
+    min-height: 30px; 
+    min-width: 150px;
+}
+
+.input{
+    border-radius: 10px;
+    min-height: 25px; 
+    min-width: 150px;
+}
+
+.p{
+    padding-left: 6px;
+    font-size: 13px;
+    text-align: justify;
+    width: 30%;
+}
+
+#modifica_pupop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.212);
+    z-index: 999;
+}
+
+#pupop{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.pupop{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
